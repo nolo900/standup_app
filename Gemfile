@@ -60,6 +60,8 @@ gem 'rollbar'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.6'
+  gem 'rails-controller-testing'
+  gem 'faker'
 end
 
 gem 'simplecov', :require => false, :group => :test
